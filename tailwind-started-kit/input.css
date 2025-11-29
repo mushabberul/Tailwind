@@ -9,3 +9,16 @@
         @apply px-6 py-3 rounded text-white bg-gray-600 inline-block;
     }
 }
+
+@layer components {
+    /* .card {
+        padding: 15px;
+        border-radius: 5px;
+        background-color: aquamarine;
+        box-shadow: 10;
+    } */
+
+    .button {
+        @apply px-4 py-2 rounded-xl text-white;
+    }
+}
