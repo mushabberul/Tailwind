@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@layer base {
+    h1 {
+        @apply text-2xl text-orange-300;
+    }
+
+    a {
+        @apply px-6 py-3 rounded text-white bg-gray-600 inline-block;
+    }
+}
